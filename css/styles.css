@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: coral;
+    height: 100%;
+    margin: 0;
+}
+
+span {
+    font-family: monospace;
+    color: white;
+    font-size: 32px;
+}
+
+#cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+
+#contenedor {
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+#piano {
+    display: flex;
+    position: relative;
+}
+
+.tecla-blanca {
+    background-color: white;
+    height: 240px;
+    width: 80px;
+    border: 1.5px solid black;
+    border-radius: 0 0 18px 18px;
+    padding-top: 190px;
+    color: gray;
+    font-size: 16px;
+}
+
+.tecla-negra {
+    background-color: black;
+    height: 160px;
+    width: 40px;
+    border: 1.5px solid black;
+    position: absolute;
+    border-radius: 0 0 15px 15px;
+    padding-top: 120px;
+    text-align: center;
+    color: gainsboro;
+}
+
+.REb4 {
+    left: 60px;
+}
+
+.MIb4 {
+    left: 140px;
+}
+
+.Solb4 {
+    left: 300px;
+}
+
+.LAb4 {
+    left: 380px;
+}
+
+.SIb4 {
+    left: 460px;
+}
+
+.REb5 {
+    left: 620px;
+}
+
+.MIb5 {
+    left: 700px;
+}
+
+.active {
+    background-color: silver;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    font-family: Helvetica;
+    font-size: 20px;
+    color: white;
+}
